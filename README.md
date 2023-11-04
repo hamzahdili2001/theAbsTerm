@@ -2,7 +2,7 @@
 Introducing a stunning terminal configuration for the modern developer! With the powerful combination of Kitty, Fish, and Neovim, your coding experience will be elevated to new heights. This repository features a beautiful and customizable terminal design that will make you excited to work on your projects. With its sleek and modern look, you'll feel like a coding pro in no time. Take your development environment to the next level with this impressive setup.
 
 # Preview:
-![theAbsTerm2](https://github.com/hamzahdili2001/theAbsTerm/assets/61630679/5a4a327e-2b41-4267-bccd-a4e684fdfd42)
+![theAbsTerm2](https://github.com/hamzahdili2001/theAbsTerm/assets/61630679/bf496500-5f2b-4546-b937-977766ec9922)
 
 # Installation:
 1. first clone this repo.
