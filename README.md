@@ -25,7 +25,10 @@ cp -r kitty .fonts ~/.config/
 
 3. lets install `fish` and the requirement for it to work.
 ```bash
-sudo apt install fish fzf starship
+sudo apt install fish fzf
+```
+```bash
+curl -sS https://starship.rs/install.sh | sh
 ```
 also we need `exa`.
 ```bash
@@ -43,8 +46,8 @@ rm -rf exa.zip
 ```bash
 cp -r fish ./config/
 
-Now exit the terminal and enter again
 ```
+Now exit the terminal and enter again.
 4. Now lets start `kitty`. and do `fish` in terminal.
 ```bash
 fish
