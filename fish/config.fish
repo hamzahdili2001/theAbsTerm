@@ -15,7 +15,7 @@ if status is-interactive
 
 end
 
-
+starship init fish | source
 #NNN
 export NNN_FIFO="/tmp/nnn.fifo nnn"
 export NNN_PREVIEW="/tmp/nnn-preview-tui-fifopid."
