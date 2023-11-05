@@ -1,7 +1,20 @@
 if status is-interactive
     # Commands to run in interactive sessions can go here
-    set -U fish_greeting 
+    set -U fish_greeting
+		# function for betty style C
+	function bettify
+		sed -i 's/[[:space:]]\+$//' $argv[1]
+	end
+
+	function gitos
+		git add . &&
+		git commit -m "$argv" &&
+		git push
+	end
+
+
 end
+
 
 #NNN
 export NNN_FIFO="/tmp/nnn.fifo nnn"
