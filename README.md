@@ -35,13 +35,14 @@ starship init fish | source
 ```
 also we need `exa`.
 ```bash
- bash -c EXA_VERSION=$(curl -s "https://api.github.com/repos/ogham/exa/releases/latest" | grep -Po '"tag_name": "v\K[0-9.]+')
+set EXA_VERSION $(curl -s "https://api.github.com/repos/ogham/exa/releases/latest" | grep -Po '"tag_name": "v\K[0-9.]+')
  ```
 ```bash
-bash -c "curl -Lo exa.zip 'https://github.com/ogham/exa/releases/latest/download/exa-linux-x86_64-v'$EXA_VERSION'.zip'"
+curl -Lo exa.zip "https://github.com/ogham/exa/releases/latest/download/exa-linux-x86_64-v$EXA_VERSION.zip"
 ```
+
 ```bash
-rm -rf exa.zip
+sudo unzip -q exa.zip bin/exa -d /usr/local
 ```
 
 - copy `fish` folder to `.config`
