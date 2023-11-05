@@ -20,8 +20,14 @@ sudo apt install kitty
 ```
 - copy the `kitty` folder in this repo and the `.fonts` into `.config/`:
 ```bash
-cp -r kitty .fonts ~/.config/
+cp -r kitty ~/.config/
 ```
+
+- if you have a `.fonts` folder use:
+```
+cp /.fonts/*.tff ~/.fonts/
+```
+- if you don't have `.fonts` folder create one.
 
 3. lets install `fish` and the requirement for it to work.
 ```bash
