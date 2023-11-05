@@ -7,7 +7,13 @@ Introducing a stunning terminal configuration for the modern developer! With the
 ![theAbsTerm3](https://github.com/hamzahdili2001/theAbsTerm/assets/61630679/c2126346-e7ef-42dd-bcaa-f38ef2b94e0f)
 
 # Installation:
-1. first clone this repo.
+let's backup your files:
+```bash
+sudo mv ~/.config/fish/ ~/.config/fish.back
+sudo mv ~/.config/kitty ~/.config/kitty.back
+sudo mv ~/.config/kitty ~/.config/kitty.back
+```
+1. first clone this repo. `git clone https://github.com/hamzahdili2001/theAbsTerm.git`
 2. second install `kitty`.
 ```bash
 sudo apt install kitty
