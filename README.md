@@ -41,7 +41,9 @@ rm -rf exa.zip
 - copy `fish` folder to `.config`
 
 ```bash
-cp -r fish ./config
+cp -r fish ./config/
+
+Now exit the terminal and enter again
 ```
 4. Now lets start `kitty`. and do `fish` in terminal.
 ```bash
