@@ -30,6 +30,9 @@ sudo apt install fish fzf
 ```bash
 curl -sS https://starship.rs/install.sh | sh
 ```
+```bash
+starship init fish | source
+```
 also we need `exa`.
 ```bash
  bash -c EXA_VERSION=$(curl -s "https://api.github.com/repos/ogham/exa/releases/latest" | grep -Po '"tag_name": "v\K[0-9.]+')
