@@ -37,7 +37,6 @@ bash -c "curl -Lo exa.zip 'https://github.com/ogham/exa/releases/latest/download
 ```bash
 rm -rf exa.zip
 ```
-```
 
 - copy `fish` folder to `.config`
 
