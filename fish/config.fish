@@ -1,29 +1,30 @@
 if status is-interactive
     # Commands to run in interactive sessions can go here
     set -U fish_greeting
-		# function for betty style C
+	# function for betty style C
 	function bettify
 		sed -i 's/[[:space:]]\+$//' $argv[1]
 	end
 
+	# git function
 	function gitos
 		git add . &&
 		git commit -m "$argv" &&
 		git push
 	end
-
+	
+	alias work='cd ~/github'
 
 end
 
-starship init fish | source
 #NNN
 export NNN_FIFO="/tmp/nnn.fifo nnn"
 export NNN_PREVIEW="/tmp/nnn-preview-tui-fifopid."
 export NNN_OPENER="xdg-open"
 export NNN_OPENER_DETACH=1
-export EDITOR="vim"
-export NNN_EDITOR="/usr/bin/vim"
-export NNN_VISUAL="vim"
+export EDITOR="nvim"
+export NNN_EDITOR="/usr/bin/nvim"
+export NNN_VISUAL="nvim"
 export NNN_COLORS="5632"
 export NNN_FCOLORS="0B0B04060006060009060B06"
 export NNN_BMS='m:/mnt;g:/mnt/Kingston/gallery-dl/instagram;d:~/Downloads;p:~/Pictures;t:~/Documents;f:~/Desktop'
