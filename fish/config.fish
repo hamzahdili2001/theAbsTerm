@@ -15,6 +15,8 @@ if status is-interactive
 	
 	alias work='cd ~/github'
 
+	alias w3c='/home/coder/github/W3C-Validator/w3c_validator.py'
+
 end
 
 #NNN
